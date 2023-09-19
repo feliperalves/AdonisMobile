@@ -8,7 +8,7 @@ export default class UsersController {
 
   public async show({}: HttpContextContract) {}
 
-  public async update({}: HttpContextContract) {
+  public async update({request, auth}: HttpContextContract) {
     const { token } = request.all()
     const userDB = await User.findOrFail(auth.user?.id)
     userDB.token = token
