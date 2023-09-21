@@ -4,9 +4,6 @@ Senha: DsyQ3x6CuzNU
 host: ep-dawn-mountain-51030708.us-east-2.aws.neon.tech
 nome do banco de dados: neondb
 
-
-
-
 node v
 
 "engines": {
