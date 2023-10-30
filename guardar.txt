@@ -6,7 +6,7 @@ nome do banco de dados: neondb
 
 node v
 
-"engines": {
+,
+  "engines": {
     "node": "16"
-}
-  
+  }
