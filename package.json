@@ -21,6 +21,9 @@
     "youch": "^3.2.3",
     "youch-terminal": "^2.2.2"
   },
+  "engines": {
+    "node": "16"
+  },
   "dependencies": {
     "@adonisjs/auth": "^8.2.3",
     "@adonisjs/core": "^5.9.0",
